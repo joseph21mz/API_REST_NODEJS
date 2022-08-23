@@ -1,0 +1,48 @@
+{
+  "Equipos": [
+    {
+      "id": 1,
+      "nombre": "AMERICA",
+      "estadio": "AZTECA",
+      "titulos": 13
+    },
+    {
+      "id": 2,
+      "nombre": "CHIVAS",
+      "estadio": "AKRON",
+      "titulos": 12
+    },
+    {
+      "id": 3,
+      "nombre": "CRUZ AZUL",
+      "estadio": "AZTECA",
+      "titulos": 9
+    },
+    {
+      "id": 4,
+      "nombre": "MAZATLAN",
+      "estadio": "EL KRAKEN",
+      "titulos": 0
+    }
+  ],
+  "Jugadores": [
+    {
+      "id": 1,
+      "nombre": "HENRY MARTIN",
+      "equipo": "AMERICA",
+      "goles": 6
+    },
+    {
+      "id": 2,
+      "nombre": "ALEXIS VEGA",
+      "equipo": "CHIVAS",
+      "goles": 2
+    },
+    {
+      "id": 3,
+      "nombre": "SANTIAGO JIMENEZ",
+      "equipo": "CRUZ AZUL",
+      "goles": 3
+    }
+  ]
+}
