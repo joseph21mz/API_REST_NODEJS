@@ -1,0 +1,20 @@
+h1{
+    color: yellow;
+    text-align: center;
+    
+}
+
+label{
+    color: red;
+}
+
+.form-central{
+    display:flex;
+    justify-content: center;
+    
+}
+html {
+    background-color: #00539F;
+  }
+
+  

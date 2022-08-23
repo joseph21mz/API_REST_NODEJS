@@ -3,21 +3,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
     <title>Equipos de Futbol</title>
 </head>
 <body>
     <h1>Registros de Equipos de Futbol</h1>
     <br>
-<form action="click" method="post" id="registrodeequipos">
+    <div class="form-central">
+        <form action="./index.js" method="post" autocomplete="off">
 
-    <label>Nombre del Equipo: <input type="text" name="nomEquipo" id="nomEquipo" > </label>  
-    <br>
-    <br>
-    <label> Nombre del Estadio: <input type="text" name="nomEstadio" id="nomEstadio"> </label>
-    <br>
-    <br>
-    <label>Titulos: <input type="text" name="titulos" id="titulos"> </label>
+            <label id="idEquipo">Nombre del Equipo: <input type="text" name="nomEquipo" id="nomEquipo" oninput="this.value = this.value.toUpperCase()" > </label>  
+            <br>
+            <br>
+            <label> Nombre del Estadio: <input type="text" name="nomEstadio" id="nomEstadio" oninput="this.value = this.value.toUpperCase()"> </label>
+            <br>
+            <br>
+            <label>Titulos: <input type="number" name="titulos" id="titulos" onkeypress="this.value.onlyNumberKey" maxlength="11" size="50%" > </label>
+            <br>
+            <br>
+            <input type="submit" value="Registrar" >
 
-</form>
+        </form>
+    </div>
 </body>
 </html>
